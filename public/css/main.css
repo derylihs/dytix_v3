@@ -1,0 +1,136 @@
+body {
+    padding-top: 120px;
+}
+ 
+.form-signup, .form-signin {
+    width: 400px;
+    margin: 0 auto;
+}
+
+/* ==========================================================================
+   Navigation styles
+   ========================================================================== */
+.navbar-inverse {
+    background-color: #ff755a;
+    border-color: transparent;
+    padding-bottom: 20px;
+}
+
+
+.nav-collapse, .nav-collapse.collapse {
+    background: none repeat scroll 0 0 #ff755a;
+    height: 0;
+    overflow: hidden;
+}
+
+.nav > li > a {
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.navbar-brand {
+  margin-top: 0px;
+}
+
+.navbar .nav > li > a {
+  color: #FFFFFF;
+  float: none;
+  padding: 35px 16px;
+  text-decoration: none;
+  text-shadow: none;
+  letter-spacing: -0.7px;
+}
+
+.navbar .nav > li > a:hover {
+  color: rgba(49,54,58,0.9);
+}
+
+.navbar-inverse .nav .active > a, .navbar-inverse .nav .active > a:hover, .navbar-inverse .nav .active > a:focus {
+  background-color: transparent;
+  color: rgba(49,54,58,0.9);
+}
+
+.navbar-inverse .nav li.dropdown > .dropdown-toggle .caret {
+  border-bottom-color: rgba(49,54,58,0.4);
+  border-top-color: rgba(49,54,58,0.4);
+}
+
+.navbar-inverse .nav li.dropdown > a:hover .caret, .navbar-inverse .nav li.dropdown > a:focus .caret {
+  border-bottom-color: rgba(49,54,58,0.4);
+  border-top-color: rgba(49,54,58,0.4);
+  transition: all 0.35s ease-in-out;
+}
+
+.navbar-inverse .nav li.dropdown.open > .dropdown-toggle, .navbar-inverse .nav li.dropdown.active > .dropdown-toggle, .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle {
+  background-color: transparent;
+}
+
+
+.dropdown-menu {
+    background-clip: padding-box;
+    background-color: #31363a;
+    color: #FFFFFF;
+    border: 0px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    display: none;
+    float: left;
+    left: 0;
+    list-style: none outside none;
+    margin: 1px 0 0;
+    min-width: 160px;
+    padding: 12px;
+    position: absolute;
+    top: 100%;
+    z-index: 1000;
+}
+
+.navbar .nav > li > .dropdown-menu:before, .navbar .nav > li > .dropdown-menu:after {
+  display: none;
+}
+
+.nav-collapse .dropdown-menu a {
+  font-weight: normal;
+}
+
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
+    background-color: transparent;
+    background-image: none;
+    background-image: -webkit-linear-gradient(linear, 0% 0%, 0% 100%, from(transparent), to(transparent));
+    background-repeat: no-repeat;
+    color: #ff755a;
+    text-decoration: none;
+}
+
+.dropdown-menu > li > a {
+    clear: both;
+    color: #FFFFFF;
+    display: block;
+    font-weight: normal;
+    line-height: 20px;
+    padding: 3px 20px;
+    white-space: nowrap;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-toggle {
+    margin-top: 18px;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:active, .navbar-inverse .navbar-toggle.active, .navbar-inverse .navbar-toggle.disabled, .navbar-inverse .navbar-toggle[disabled] {
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+
